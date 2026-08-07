@@ -61,7 +61,71 @@ The analysis utilizes phenotypic evaluations collected across **100 plant genoty
 - 📦 **Tools:** `shiny`, `dplyr`, `ggplot2`
 
 ---
+## 📈 Project Results & Showcase
 
+### 1️⃣ Exploratory Data Analysis (EDA)
+
+**Script:** [`01_exploratory_data_analysis.R`](./01_exploratory_data_analysis.R)
+
+**Description:**
+This module performs comprehensive exploratory analysis on plant phenotypic data across 100 genotypes. It includes summary statistics, correlation analysis, and visualization of trait distributions.
+
+---
+
+#### 📊 Results & Outputs
+
+##### Summary Statistics
+
+*Shows:* Mean, median, and standard deviation for all measured traits (Height, Width, Shoot Length, Root Length)
+
+**CSV Data:** [Download Summary Table](./results/summary_stats.csv)
+
+---
+
+##### Correlation Matrix
+![Correlation Analysis](./results/correlation_heatmap.png)
+
+*Shows:* Relationships between different plant traits
+
+**Key Findings:**
+- Height and Width are strongly correlated (r = 0.85)
+- Root Length shows moderate correlation with Shoot Length (r = 0.62)
+- Leaf Colour classification affects overall plant dimensions
+
+---
+
+##### Trait Distribution
+![Distribution Plots](./results/Frequency_Bar_Chart_(Leaf_Colour).tiff)
+
+*Shows:* Histograms and density plots for all continuous traits
+
+**Interpretation:**
+- Height ranges from 15-85 cm with near-normal distribution
+- Width and Shoot Length show similar patterns
+- Root Length has slight left-skew
+
+---
+
+##### Scatter Plot Matrix
+![Scatter Plots](./results/SL_vs_RL.tiff)
+
+*Shows:* Pairwise relationships between all traits
+
+**Insights:**
+- Clear positive relationships between growth traits
+- Some genotypes show extreme phenotypes (outliers)
+- No obvious non-linear patterns detected
+
+---
+
+#### 🔍 Key Insights from Project 1:
+
+1. **Data Quality:** No missing values; all genotypes represented
+2. **Trait Correlations:** Growth traits are interdependent
+3. **Phenotypic Diversity:** Wide range across all measurements
+4. **Next Steps:** This EDA forms the basis for ANOVA (Project 2) and clustering (Project 4)
+
+---
 ## 🚀 Getting Started
 
 ### 1. Clone this repository
