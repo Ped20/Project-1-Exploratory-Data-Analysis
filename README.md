@@ -95,7 +95,7 @@ This module performs comprehensive exploratory analysis on plant phenotypic data
 ---
 
 ##### Trait Distribution
-![Distribution Plots](./results/Frequency_Bar_Chart_(Leaf_Colour).png)
+![Distribution Plots](./results/Frequency Bar Chart (Leaf Colour).png)
 
 *Shows:* Histograms and density plots for all continuous traits
 
@@ -107,7 +107,7 @@ This module performs comprehensive exploratory analysis on plant phenotypic data
 ---
 
 ##### Scatter Plot Matrix
-![Scatter Plots](./results/SL_vs_RL.png)
+![Scatter Plots](./results/SL vs RL.png)
 
 *Shows:* Pairwise relationships between all traits
 
