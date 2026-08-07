@@ -1,0 +1,7 @@
+"  Genotype","      L","      B","      SL","      RL","     LC"
+"Length:100        ","Min.   :80.60  ","Min.   : 7.000  ","Min.   :55.10  ","Min.   :24.00  ","Length:100        "
+"Class :character  ","1st Qu.:85.55  ","1st Qu.: 7.675  ","1st Qu.:59.38  ","1st Qu.:26.00  ","Class :character  "
+"Mode  :character  ","Median :89.40  ","Median : 8.200  ","Median :62.00  ","Median :27.65  ","Mode  :character  "
+NA,"Mean   :89.73  ","Mean   : 8.364  ","Mean   :62.48  ","Mean   :27.74  ",NA
+NA,"3rd Qu.:93.62  ","3rd Qu.: 9.000  ","3rd Qu.:65.53  ","3rd Qu.:29.23  ",NA
+NA,"Max.   :99.40  ","Max.   :10.000  ","Max.   :70.20  ","Max.   :31.80  ",NA
