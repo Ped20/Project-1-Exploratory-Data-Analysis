@@ -63,7 +63,7 @@ The analysis utilizes phenotypic evaluations collected across **100 plant genoty
 ---
 ## 📈 Project Results & Showcase
 
-### 1️⃣ Exploratory Data Analysis (EDA)
+### 1️⃣ Exploratory Data Analysis
 
 **Script:** [`01_exploratory_data_analysis.R`](./01_exploratory_data_analysis.R)
 
@@ -95,7 +95,7 @@ This module performs comprehensive exploratory analysis on plant phenotypic data
 ---
 
 ##### Trait Distribution
-![Distribution Plots](./results/Frequency_Bar_Chart_(Leaf_Colour).tiff)
+![Distribution Plots](./results/Frequency_Bar_Chart_(Leaf_Colour).png)
 
 *Shows:* Histograms and density plots for all continuous traits
 
@@ -107,7 +107,7 @@ This module performs comprehensive exploratory analysis on plant phenotypic data
 ---
 
 ##### Scatter Plot Matrix
-![Scatter Plots](./results/SL_vs_RL.tiff)
+![Scatter Plots](./results/SL_vs_RL.png)
 
 *Shows:* Pairwise relationships between all traits
 
