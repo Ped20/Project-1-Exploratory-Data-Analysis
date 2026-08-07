@@ -34,7 +34,7 @@ The analysis utilizes phenotypic evaluations collected across **100 plant genoty
 ## 🗂️ Project Structure & Modules
 
 ### 1️⃣ Exploratory Data Analysis
-> **Script:** `01_exploratory_data_analysis.R`  
+> **Script:** `01_exploratory_data_analysis.R`(./01_exploratory_data_analysis.R)  
 - Summary statistics, correlations, bar charts, scatter plots  
 - 📦 **Tools:** `readxl`, `dplyr`, `ggplot2`
 
