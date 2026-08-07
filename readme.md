@@ -60,6 +60,19 @@ The analysis utilizes phenotypic evaluations collected across **100 plant genoty
 - 📦 **Tools:** `shiny`, `dplyr`, `ggplot2`
 
 ---
+---
+
+## 📈 Results & Outputs
+
+Each script generates specific outputs. Click the script name to explore:
+
+| Script | Output Files | Key Results |
+|--------|--------------|------------|
+| **01_exploratory_data_analysis.R** | `summary_stats.csv`<br>`correlation_plot.png` | Summary statistics, trait correlations |
+| **02_anova_and_posthoc.R** | `anova_results.tiff`<br>`posthoc_comparison.csv` | Significant differences between genotypes |
+| **03_linear_regression.R** | `regression_model.rds`<br>`residuals_plot.png` | R², coefficients, diagnostic plots |
+| **04_genotype_clustering_pca.R** | `pca_biplot.png`<br>`cluster_assignment.csv` | Genotype groupings, PC variance |
+| **05_shiny_dashboard.R** | Interactive web app | Real-time trait filtering & visualization |
 
 ## 🚀 Getting Started
 
