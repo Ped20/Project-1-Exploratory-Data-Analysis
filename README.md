@@ -107,7 +107,7 @@ This module performs comprehensive exploratory analysis on plant phenotypic data
 ---
 
 ##### Scatter Plot Matrix
-![Scatter Plots](./results/SL vs RL.png)
+![Scatter Plots](./results/SL vs RL.png) 
 
 *Shows:* Pairwise relationships between all traits
 
