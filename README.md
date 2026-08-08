@@ -49,23 +49,23 @@ Each genotype is described by one ID and five measured/scored traits:
 
 Five numbered scripts — run them in order, each one builds on the previous.
 
-| # | Module | Script | What it does (in plain words) | Packages |
+| # | Project name | Script name | What it does (in plain words) | Packages |
 |:-:|--------|--------|-------------------------------|----------|
-| 1️⃣ | **Exploratory Data Analysis** | [`01_exploratory_data_analysis.R`](./01_exploratory_data_analysis.R) | First look at the data — summary stats, correlations, bar & scatter plots | `readxl` `dplyr` `ggplot2` |
-| 2️⃣ | **ANOVA & Post-Hoc Test** | [`02_anova_and_posthoc.R`](./02_anova_and_posthoc.R) | Checks if genotypes truly differ (One-Way ANOVA) and ranks them (Duncan's Test); exports `.tiff` boxplots | `agricolae` |
-| 3️⃣ | **Linear Regression** | [`03_linear_regression.R`](./03_linear_regression.R) | Predicts one trait from another; reports R² and residual diagnostics | `stats` `ggplot2` |
-| 4️⃣ | **Clustering & PCA** | [`04_genotype_clustering_pca.R`](./04_genotype_clustering_pca.R) | Scales traits (Z-score), groups similar genotypes (K-Means, K = 3), visualizes with PCA biplots | `factoextra` `stats` |
-| 5️⃣ | **Shiny Dashboard** | [`05_shiny_dashboard.R`](./05_shiny_dashboard.R) | A web app to filter and plot traits — no coding needed to explore | `shiny` `dplyr` `ggplot2` |
+| 1 | **Exploratory Data Analysis** | [`exploratory_data_analysis`] | First look at the data — summary stats, correlations, bar & scatter plots | `readxl` `dplyr` `ggplot2` |
+| 2 | **ANOVA & Post-Hoc Test** | [`anova_and_posthoc`] | Checks if genotypes truly differ (One-Way ANOVA) and ranks them (Duncan's Test); exports `.tiff` boxplots | `agricolae` |
+| 3 | **Linear Regression** | [`linear_regression`] | Predicts one trait from another; reports R² and residual diagnostics | `stats` `ggplot2` |
+| 4 | **Clustering & PCA** | [`genotype_clustering_pca`] | Scales traits (Z-score), groups similar genotypes (K-Means, K = 3), visualizes with PCA biplots | `factoextra` `stats` |
+| 5 | **Shiny Dashboard** | [`shiny_dashboard`] | A web app to filter and plot traits — no coding needed to explore | `shiny` `dplyr` `ggplot2` |
 
 ### ❓ The Question Each Step Answers
 
 | Step | Question |
 |:---:|---|
-| 🔍 `01` | *What does my data look like?* |
-| 📊 `02` | *Are the genotypes really different — and which ones are the best?* |
-| 📈 `03` | *Can one trait predict another?* *(indirect selection)* |
-| 🧬 `04` | *Which genotypes are alike — and which are diverse enough for crossing?* |
-| 🖥️ `05` | *Can I explore the results without writing code?* |
+|  `01` | *What does my data look like?* |
+|  `02` | *Are the genotypes really different — and which ones are the best?* |
+|  `03` | *Can one trait predict another?* *(indirect selection)* |
+|  `04` | *Which genotypes are alike — and which are diverse enough for crossing?* |
+|  `05` | *Can I explore the results without writing code?* |
 
 ---
 
