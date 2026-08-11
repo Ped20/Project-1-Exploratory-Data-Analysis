@@ -110,8 +110,8 @@ This module performs comprehensive exploratory analysis on plant phenotypic data
 *Shows:* Relationships between different plant traits
 
 **Key Findings:**
-- Height and Width are strongly correlated (r = 0.85)
-- Root Length shows moderate correlation with Shoot Length (r = 0.62)
+- Length and Breath are strongly correlated 
+- Root Length shows moderate correlation with Shoot Length
 - Leaf Colour classification affects overall plant dimensions
 
 ---
